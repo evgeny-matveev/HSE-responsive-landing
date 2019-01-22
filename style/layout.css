@@ -113,12 +113,12 @@ header nav {
 }
 
 blockquote:first-of-type {
-  position: relative;
-
   margin-top: 30px;
 }
 
 blockquote {
+  position: relative;
+
   margin-top: 20px;
   padding: 56px 36px 26px 30px;
 
@@ -155,3 +155,24 @@ blockquote p img {
 
   width: 24px;
 }
+
+blockquote::before {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  width: 24px;
+  height: 24px;
+
+  content: "";
+
+  background-image: url(../img/quote.svg);
+}
+
+
+
+
+
+
+
+/* EOL */
