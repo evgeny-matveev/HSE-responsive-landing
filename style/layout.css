@@ -92,3 +92,66 @@ header nav {
   font-size: 16px;
   line-height: 120%;
 }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 60px;
+  padding: 30px 30px 60px 30px;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(56, 56, 86, 1);
+
+  align-items: center;
+}
+
+.reviews h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+blockquote:first-of-type {
+  position: relative;
+
+  margin-top: 30px;
+}
+
+blockquote {
+  margin-top: 20px;
+  padding: 56px 36px 26px 30px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+blockquote p:first-of-type {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 120%;
+}
+
+blockquote p:last-of-type {
+  display: flex;
+
+  margin-top: 34px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+  align-items: center;
+}
+
+blockquote p img {
+  width: 20px;
+  padding-right: 10px;
+}
+
+.quote-img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  width: 24px;
+}
