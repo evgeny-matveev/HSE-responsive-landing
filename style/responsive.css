@@ -28,8 +28,31 @@
     background-image: url(../img/phone.png);
     background-size: cover;
   }
+  .keypoints {
+    padding: 193px 90px 90px;
+  }
+  .keypoints-wrapper {
+    width: calc(260px + 260px + 68px);
+    margin: 0 auto;
+  }
   .keypoints h2 {
     display: block;
+
+    margin-bottom: 30px;
+  }
+  .keypoints article {
+    display: inline-block;
+
+    margin: 0;
+  }
+  .keypoints article:nth-child(odd) {
+    margin-right: 64px;
+  }
+  .keypoints article+article {
+    margin-top: 0;
+  }
+  .keypoints article:nth-child(3) {
+    margin-top: 60px;
   }
 }
 
