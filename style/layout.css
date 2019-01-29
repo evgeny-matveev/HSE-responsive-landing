@@ -198,6 +198,10 @@ blockquote::before {
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
 }
 
+.price-item + .price-item {
+  margin-top: 30px;
+}
+
 .price-item img {
   margin: 25px 0 25px -9px;
 }
