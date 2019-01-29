@@ -242,6 +242,26 @@ i {
   background: #FFAC3E;
 }
 
+.buy-button {
+  display: inline-block;
+
+  margin-top: 48px;
+  padding: 9px 30px;
+
+  text-decoration: none;
+
+  color: #000;
+  border-radius: 2px;
+  background-color: #FFAC3E;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+
 
 
 /* EOL */
