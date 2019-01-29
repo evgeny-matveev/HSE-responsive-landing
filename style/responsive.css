@@ -69,6 +69,26 @@
   .reviews blockquote:nth-child(3) {
     margin: 30px 25px;
   }
+  .price {
+    padding: 60px 90px 100px;
+  }
+  .price h2 {
+    text-align: left;
+  }
+  .price-item-wrapper {
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .price-item + .price-item {
+    margin-top: 0;
+  }
+  .price-item {
+    width: calc(50% - 30px);
+    min-width: 260px;
+    max-width: 407px;
+    margin: 0;
+  }
 }
 
 
