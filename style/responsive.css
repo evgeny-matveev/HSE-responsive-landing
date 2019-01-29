@@ -89,6 +89,9 @@
     max-width: 407px;
     margin: 0;
   }
+  footer {
+    padding: 0 90px 30px;
+  }
 }
 
 
